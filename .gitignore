@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#JSON and Other Data Files
+Data Files
+
+# Report
+Report
+
+PageObjects
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pyc
+__pycache__
+*.pytest_cache
+archived_logs
+latest_logs
+archived_files
+downloaded_files
+assets
+Datalog_packages.egg-info
+# vim
+.*.sw*
+Session.vim
+
+# env
+env.yml
+.env
+
+# Jetbrains IDEs
+.idea
+
+#VSCode IDEs
+.vscode
+setup.py
