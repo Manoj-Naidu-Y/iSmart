@@ -51,4 +51,4 @@ jobs:
         seleniumbase install chromedriver
     - name: Run pytest Testsuite/Login/test_login.py -sv --rcs
       run: |
-        pytest Testsuite/Login/test_login.py -sv --rcs
+        pytest Testsuite/Login/test_login.py -sv --rcs --headless
